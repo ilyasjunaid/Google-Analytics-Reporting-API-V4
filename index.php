@@ -1,7 +1,7 @@
 <?php
 // Load the Google API PHP Client Library.
 require_once __DIR__ . '/vendor/autoload.php';
-$ViewID = "60834438";
+$ViewID = "";
 $start_date = date("Y-m-01");
 $end_date = date("Y-m-d");
 $date_range = "";
@@ -38,7 +38,7 @@ function initializeAnalytics() {
     // Use the developers console and download your service account
     // credentials in JSON format. Place them in this directory or
     // change the key file location if necessary.
-    $KEY_FILE_LOCATION = __DIR__ . '/tourist-town-331012-7e48e1e2207b.json';
+    $KEY_FILE_LOCATION = __DIR__ . '/name-of-the-json-file';
 
     // Create and configure a new client object.
     $client = new Google_Client();
