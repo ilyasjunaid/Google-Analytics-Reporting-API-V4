@@ -719,3 +719,4 @@ require_once 'include/header.php';
         }
     }
 </script>
+<?php require_once 'include/footer.php'; ?>
