@@ -1,6 +1,4 @@
 <?php
-
-require_once '../include/config.inc.php';
 $date_range = $_REQUEST['value'];
 if ($date_range == 1) {
     $start_date = date("Y-m-d");
