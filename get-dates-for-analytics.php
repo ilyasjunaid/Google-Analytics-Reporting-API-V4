@@ -20,3 +20,4 @@ if ($date_range == 1) {
     $end_date = date("Y-m-d", strtotime("yesterday"));
 }
 print_r($start_date . ',' . $end_date);
+?>
